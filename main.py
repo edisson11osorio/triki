@@ -2,6 +2,9 @@ from ast import Break
 import email
 import random
 import os
+from struct import calcsize
+
+from pyrsistent import T
 
 #--INICIO DEL JUEGO / FICHA--
 
@@ -60,3 +63,13 @@ def victoria(matriz):
 
 
 #--MOVIMENTOS--
+
+def movimiento_jugador():
+    while True:
+        posiciones=[1, 2, 3, 4, 5, 6, 7, 8, 9]
+        casilla=int(input("Selecione una casilla: "))
+        if casilla not in posiciones:
+            print("Casilla no disponible")
+
+        else:
+            if matriz[casilla-1]
