@@ -36,3 +36,10 @@ def tablero():
     print("         |         |     ")
     print("7  {}     |8   {}   |9    ".format(matriz[6],matriz[7],matriz[8]))
     print("         |         |       ")
+
+#--DEFINIR FINLAES DE LA PARTIDA--
+
+def empate(matriz):
+    empate=True
+    i=0
+    while(empate==True and i<9):
