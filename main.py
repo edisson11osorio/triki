@@ -22,3 +22,17 @@ def inicio_juego():
 
 #--Creacion del tablero--
 
+def tablero():
+    print("TRES EN RAYA / TIC TAC TOE")
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
