@@ -1,4 +1,5 @@
 from ast import Break
+import email
 import random
 import os
 
@@ -43,3 +44,8 @@ def empate(matriz):
     empate=True
     i=0
     while(empate==True and i<9):
+        if matriz[i]==" ":
+            empate=False
+        i=i+1
+
+    return empate
