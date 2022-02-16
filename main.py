@@ -1,3 +1,24 @@
+from ast import Break
 import random
 import os
+
+#--INICIO DEL JUEGO / FICHA--
+
+def inicio_juego():
+    print("***Bienvenido***")
+    while True:
+        ficha = input("Selecione ficha: X / O \n")
+        ficha = ficha.upper()
+        if ficha=="X":
+            humano="X"
+            ordenador="O"
+            break
+        elif ficha=="O":
+            humano="O"
+            conputador="X"
+            break
+        else:
+            print("por favor ntroduc un ficha")
+
+#--Creacion del tablero--
 
