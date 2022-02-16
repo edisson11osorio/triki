@@ -49,3 +49,14 @@ def empate(matriz):
         i=i+1
 
     return empate
+
+def victoria(matriz):
+    if (matriz[0]==matriz[1]==matriz[2]!=" "or matriz[3]==matriz[4]==matriz[5]!=" "or matriz[6]==matriz[7]==matriz[8]!=" "
+       or matriz[0]==matriz[3]==matriz[6]!=" "or matriz[1]==matriz[4]==matriz[7]!=" "or matriz[2]==matriz[5]==matriz[8]!=" "or 
+       matriz[0]==matriz[4]==matriz[8]!=" "or matriz[2]==matriz[4]==matriz[6]!=" "):
+       return True
+    else:
+        return False
+
+
+#--MOVIMENTOS--
