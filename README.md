@@ -1,3 +1,3 @@
 # triki
 
-hola a todos estoy feliz 
+hola a todos este es mi primer juego en python
